@@ -1,0 +1,95 @@
+body{
+  background-color: #DAEAF1;
+}
+.container{
+  margin-top:70px;
+  margin-bottom: 80px;
+
+  /* margin-left: 0px; */
+   /* margin-right: 0px; */
+}
+img{
+  height: 150px;
+  width:150px;
+  border-radius: 200px;
+  margin-top: 8px;
+  /* padding-left: 40px; */
+}
+.names{
+  padding-top: 50px;
+
+}
+.name1{
+  padding-left: 0;
+}
+.name2{
+  padding-left: 20px;
+}
+.name3{
+  padding-left: 0;
+}
+.name4{
+  padding-left: 0;
+}
+.subcontainer{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.comments{
+  padding-right: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+.comments h6{
+  margin-top: 19px;
+   color:#DFDFDE;
+}
+.names h6{
+  color:#DFDFDE;
+}
+#h6{
+  color:grey;
+}
+.box1{
+  background-color:#AB46D2;
+  border-radius: 10px;
+  margin-right:15px;
+  width:600px;
+}
+.box1 h3, .box1 h5{
+  color: white;
+}
+.box2{
+  background-color: #73777B;
+ border-radius: 10px;
+}
+.box2 h3, .box2 h5{
+  color:white;
+}
+.box3{
+  background-color:#F9F9F9 ;
+  margin-top: 20px;
+  border-radius: 10px;
+   margin-right: 20px;
+  width: 400px;
+}
+
+.box4{
+  background-color:#383838;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.box4 h3, .box4 h5{
+  color: white;
+}
+
+/* Media Query Section For Mobile Design */
+@media(max-width:700px){
+  .box1,.box2,.box3,.box4{
+    width:600px;
+  }
+  .box2{
+    margin-top: 20px;
+  }
+}
